@@ -34,7 +34,7 @@ configuration:
 array index. Therefore, addresses `0` through `31` are valid word
 indices; this is not a byte-addressed APB memory map.
 
-![APB DUT Architecute](./docs/apb_dut_block_diagram.PNG)
+![APB DUT Architecute](./docs/apb_dut_block_diagram.png)
 
 
 F:\DV_PROJECTS\APB_RAM_UVM\UVM_BASED_VERIFICATION_OF_APB_RAM\docs
@@ -63,7 +63,7 @@ The monitor analysis port is connected to both the scoreboard and
 coverage subscriber.
 
 
-![APB UVM Architecute](./docs/uvm_architecture.PNG)
+![APB UVM Architecute](./docs/uvm_architecture.png)
 
 
 ## Transaction Flow
@@ -78,7 +78,7 @@ coverage subscriber.
 8.  The coverage subscriber samples operation, address, response, and
     write-data categories.
 
-![APB UVM Transaction](./docs/apb_transaction_flow.PNG)
+![APB UVM Transaction](./docs/apb_transaction_flow.png)
 
 
 ## APB Transfer Phases
