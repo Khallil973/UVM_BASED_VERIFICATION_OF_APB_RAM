@@ -184,7 +184,7 @@ Add the latest verified results here:
 
 ### 1. Simulation Results
 
-![APB Simulation Results](docs/apb_result.png)
+![APB Simulation Results](./docs/apb_result.png)
 
 ### 2. Functional Coverage Results
 
