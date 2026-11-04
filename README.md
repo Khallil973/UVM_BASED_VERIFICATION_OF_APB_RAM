@@ -176,9 +176,6 @@ If running locally, compile the interface and RTL before the UVM package
 and top-level testbench. Ensure the simulator is configured with a
 compatible UVM library and that package include paths are correct.
 
-## Results
-
-Add the latest verified results here:
 
 ## Results
 
@@ -188,20 +185,19 @@ Add the latest verified results here:
 
 ### 2. Functional Coverage Results
 
-![APB Functional Coverage](docs/apb_coverage.png)
+![APB Functional Coverage](./docs/apb_coverage.png)
 
 ### 3. Assertion Verification Results
 
-![APB Assertion Results](docs/apb_assertion.png)
+![APB Assertion Results](./docs/apb_assertion.png)
 
 ### 4. Scoreboard Results
 
-![APB Scoreboard Results](docs/apb_sco.png)
+![APB Scoreboard Results](./docs/apb_sco.png)
 
 ### 5. Additional Scoreboard Results
 
-![APB Scoreboard Additional Results](docs/apb_sco1.png)
-
+![APB Scoreboard Additional Results](./docs/apb_sco1.png)
 
 ## Future Improvements
 
