@@ -180,13 +180,26 @@ compatible UVM library and that package include paths are correct.
 
 Add the latest verified results here:
 
--   Simulation status: **\[Update after final regression\]**
--   Functional coverage: **\[Insert latest report\]**
--   Assertion status: **\[Insert pass/fail summary after validation\]**
--   Scoreboard status: **\[Insert latest result\]**
+## Results
 
-Do not report 100% coverage or all assertions passing unless the
-corresponding simulation logs support those claims.
+### 1. Simulation Results
+
+![APB Simulation Results](docs/apb_result.png)
+
+### 2. Functional Coverage Results
+
+![APB Functional Coverage](docs/apb_coverage.png)
+
+### 3. Assertion Verification Results
+
+![APB Assertion Results](docs/apb_assertion.png)
+
+### 4. Scoreboard Results
+
+![APB Scoreboard Results](docs/apb_sco.png)
+
+![APB Scoreboard Additional Results](docs/apb_sco1.png)
+
 
 ## Future Improvements
 
