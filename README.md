@@ -181,23 +181,23 @@ compatible UVM library and that package include paths are correct.
 
 ### 1. Simulation Results
 
-![APB Simulation Results](./docs/apb_result.png)
+![APB Simulation Results](./docs/apb_result.PNG)
 
 ### 2. Functional Coverage Results
 
-![APB Functional Coverage](./docs/apb_coverage.png)
+![APB Functional Coverage](./docs/apb_coverage.PNG)
 
 ### 3. Assertion Verification Results
 
-![APB Assertion Results](./docs/apb_assertion.png)
+![APB Assertion Results](./docs/apb_assertion.PNG)
 
 ### 4. Scoreboard Results
 
-![APB Scoreboard Results](./docs/apb_sco.png)
+![APB Scoreboard Results](./docs/apb_sco.PNG)
 
 ### 5. Additional Scoreboard Results
 
-![APB Scoreboard Additional Results](./docs/apb_sco1.png)
+![APB Scoreboard Additional Results](./docs/apb_sco1.PNG)
 
 ## Future Improvements
 
