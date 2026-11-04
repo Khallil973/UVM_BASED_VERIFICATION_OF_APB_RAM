@@ -34,6 +34,10 @@ configuration:
 array index. Therefore, addresses `0` through `31` are valid word
 indices; this is not a byte-addressed APB memory map.
 
+![APB DUT Architecute](./docs/apb_dut_block_diagram.PNG)
+
+
+F:\DV_PROJECTS\APB_RAM_UVM\UVM_BASED_VERIFICATION_OF_APB_RAM\docs
 ## Verification Architecture
 
 The testbench follows a UVM layered architecture:
@@ -58,6 +62,10 @@ The testbench follows a UVM layered architecture:
 The monitor analysis port is connected to both the scoreboard and
 coverage subscriber.
 
+
+![APB UVM Architecute](./docs/uvm_architecture.PNG)
+
+
 ## Transaction Flow
 
 1.  A test starts a sequence.
@@ -69,6 +77,9 @@ coverage subscriber.
 7.  The scoreboard checks the observed behavior.
 8.  The coverage subscriber samples operation, address, response, and
     write-data categories.
+
+![APB UVM Transaction](./docs/apb_transaction_flow.PNG)
+
 
 ## APB Transfer Phases
 
@@ -156,8 +167,7 @@ APB_RAM_UVM_Verification/
 └── README.md
 ```
 
-Adjust folder and file names to match the actual files in the final
-repository.
+
 
 ## Tools
 
@@ -192,12 +202,10 @@ compatible UVM library and that package include paths are correct.
 ![APB Assertion Results](./docs/apb_assertion.PNG)
 
 ### 4. Scoreboard Results
-
-![APB Scoreboard Results](./docs/apb_sco.PNG)
-
-### 5. Additional Scoreboard Results
-
-![APB Scoreboard Additional Results](./docs/apb_sco1.PNG)
+### Write
+![APB Write Scoreboard](./docs/apb_sco.PNG)
+### Read
+![APB Read Scoreboard](./docs/apb_sco1.PNG)
 
 ## Future Improvements
 
@@ -208,3 +216,7 @@ compatible UVM library and that package include paths are correct.
 -   Add more directed and constrained-random tests.
 -   Add regression scripts and reproducible local simulation
     instructions.
+S
+
+## EDA Playground Link
+https://www.edaplayground.com/x/UZL6
