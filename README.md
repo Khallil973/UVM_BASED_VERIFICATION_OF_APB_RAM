@@ -207,6 +207,11 @@ compatible UVM library and that package include paths are correct.
 ### Read
 ![APB Read Scoreboard](./docs/apb_sco1.PNG)
 
+
+## Waveform
+![APB Read Scoreboard](./docs/waveform.PNG)
+
+
 ## Future Improvements
 
 -   Add a reusable APB protocol-compliant driver and clocking block.
